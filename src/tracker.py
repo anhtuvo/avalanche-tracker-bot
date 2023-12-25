@@ -1,7 +1,7 @@
 import os
 import requests
 from dotenv import load_dotenv
-from tokens import get_main_token_price
+from src.tokens import get_main_token_price
 load_dotenv()
 
 API_KEY = os.getenv("SNOWTRACE_API_KEY")
